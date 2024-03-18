@@ -22,5 +22,6 @@ public class Player : MonoBehaviour
         verticalAxis = Input.GetAxis("Vertical") * Time.deltaTime * movementSpeed;
 
         transform.Translate(horizontalAxis,0,verticalAxis);
+
     }
 }
